@@ -1,0 +1,10 @@
+grammar org.softlang.xtestgen.Config with org.eclipse.xtext.common.Terminals
+
+import "http://www.eclipse.org/2008/Xtext"
+generate config "http://softlang.wikidot.com/xxtestgen/Config"
+
+GenerationConfig:
+	'generator' target=[Grammar|QID];
+
+QID:
+	ID ('.' ID)*;

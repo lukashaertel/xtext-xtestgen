@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Combinatorial Coverage
+Bundle-SymbolicName: org.softlang.xtestgen.coco
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: XTestgen, SOFTLANG Team, Universität Koblenz-Landau
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.eclipse.xtext,
+ org.eclipse.xtext.generator,
+ org.eclipse.xtend.lib,
+ org.softlang.xtestgen.config;visibility:=reexport
