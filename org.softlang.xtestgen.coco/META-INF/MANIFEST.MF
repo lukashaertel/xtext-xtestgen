@@ -9,3 +9,5 @@ Require-Bundle: org.eclipse.xtext,
  org.eclipse.xtext.generator,
  org.eclipse.xtend.lib,
  org.softlang.xtestgen.config;visibility:=reexport
+Bundle-ClassPath: libs/commons-lang3-3.3.2.jar,
+ .
